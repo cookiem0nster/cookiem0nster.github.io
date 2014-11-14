@@ -1,0 +1,25 @@
+body{
+  background: url("Unit3/images/background.jpg");
+  background-size: center;
+  background-position: center;
+
+  background: url("Unit3/images/stripes.png");
+  background-repeat: repeat-x;
+  background-position: top;
+
+  background-color: rgb(82,89,107);
+
+  color: white;
+  font-family: Arial, sans-serif;
+
+}
+
+hr{
+  color: rgb(144,93,103);
+  width: 30px;
+  border-style: outset;
+  border-width: 10px;
+ 
+
+
+}
