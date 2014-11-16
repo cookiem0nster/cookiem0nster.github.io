@@ -1,25 +1,30 @@
 body{
-  background: url("Unit3/images/background.jpg");
-  background-size: center;
-  background-position: center;
-
-  background: url("Unit3/images/stripes.png");
-  background-repeat: repeat-x;
-  background-position: top;
+  background: url("../images/stripes.png"), url("../images/background.jpg");
+  background-size: auto, cover;
+  background-position: top, auto;
+  background-repeat: repeat-x, no-repeat;
 
   background-color: rgb(82,89,107);
 
   color: white;
   font-family: Arial, sans-serif;
+  font-size:20px;
+}
 
+#logo{
+  margin:300px 0px 0px 100px;
 }
 
 hr{
   color: rgb(144,93,103);
-  width: 30px;
+  width: 50px;
   border-style: outset;
-  border-width: 10px;
- 
-
-
+  border-width: 3px;
+  margin:20px 100px;
+}
+p{
+  margin-left:100px;
+}
+a{
+  margin-left:100px;
 }
