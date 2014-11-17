@@ -1,0 +1,44 @@
+body{
+  background-color: gray;
+  background: url("../images/eggbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+#logo{
+  font-family: 'Delius Unicase', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  color: rgb(255, 229, 77);
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  line-height: 3em;
+  width: 6em;
+  height: 3em;
+  background: white;
+  -moz-border-radius: 3.3em / 1.8em;
+  -webkit-border-radius: 3.3em / 1.8em;
+  border-radius: 3.3em / 1.8em;
+  padding:0.3em;
+  margin: auto;
+}
+h2{
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2em;
+  margin: 0.2em auto 13em auto;
+  color: #FFF47D;
+}
+hr{
+  color: #8C8645;
+  width: 60em;
+  border-style: outset;
+  border-width: 1px;
+  margin:auto;
+}
+p{
+  font-family: 'Josefin Slab', serif;
+  font-weight: 100;
+  text-align: center;
+  color: #FFF47D;
+}
