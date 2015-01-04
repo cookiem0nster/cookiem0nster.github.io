@@ -1,6 +1,6 @@
 #container{
   margin: 0 auto;
-  width:1000px;
+  width:80%;
   background-color: #FDF5B2;
 }
 body{
@@ -20,7 +20,6 @@ h2{
 }
 nav{
   font-family: 'Josefin Slab', serif;
-  font-weight: 400;
   font-size: 2em;
   background-color: #52596B;
   color: #FFFFFF;
@@ -55,7 +54,6 @@ p{
 #slogan{
   text-align:left;
   font-size: 2em;
-  font-weight: 400;
   vertical-align: middle;
 }
 #home{
