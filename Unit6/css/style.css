@@ -66,11 +66,19 @@ footer{
   background-color: #52596B;
   padding: 10px;
 }
+li p:nth-child(odd) {
+  float:left;
+  width:50%;
+}
+li p:nth-child(even) {
+  float:right;
+  width:50%;
+}
 .clearfix:after{
   visibility: hidden;
   display: block;
   font-size:0;
   content: " ";
-  clear: both:
+  clear: both;
   height: 0;
 }
